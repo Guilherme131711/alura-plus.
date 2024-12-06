@@ -8,13 +8,16 @@
     --cinza:#c0c0c0;
     --btn-azul : #167BF7;
     --cor-de-fundo : #00030C;
+    --fonte-principal :  "Inter";
 }
 
 body{
     height: 100vh;
     color: var(--color-titulo);
     background-color: var(--cor-de-fundo);
-
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .container{
@@ -24,9 +27,14 @@ body{
 }
 
 .principal{
-    background: url(./img/Background.png);
+    background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size:contain;
+}
+
+.container__titulo1{
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .container__btn{
