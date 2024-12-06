@@ -19,10 +19,21 @@ body{
 
 .container{
     height: 100vh;
+    
 }
 
 .principal{
     background: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size:contain;
+}
+
+.container__btn{
+    display: block;
+
+    background-color: var(--btn-azul);
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: var(--color-titulo);
+    text-decoration: none;
 }
