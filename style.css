@@ -19,8 +19,12 @@ body{
 
 .container{
     height: 100vh;
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: 50% 50%;
+=======
+    
+>>>>>>> b886cf634cbc2c7bd00d3c885d8fac5274c0bd4c
 }
 
 .principal{
@@ -31,11 +35,16 @@ body{
 
 .container__btn{
     display: block;
+<<<<<<< HEAD
+=======
+
+>>>>>>> b886cf634cbc2c7bd00d3c885d8fac5274c0bd4c
     background-color: var(--btn-azul);
     border-radius: 5px;
     padding: 0.5rem;
     color: var(--color-titulo);
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 .botao_secundario{
@@ -46,4 +55,6 @@ body{
 .container__aviso{
     color: var(--cinza);
     font-size: 12px;
+=======
+>>>>>>> b886cf634cbc2c7bd00d3c885d8fac5274c0bd4c
 }
