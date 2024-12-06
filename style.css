@@ -19,7 +19,8 @@ body{
 
 .container{
     height: 100vh;
-    
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .principal{
@@ -30,10 +31,19 @@ body{
 
 .container__btn{
     display: block;
-
     background-color: var(--btn-azul);
     border-radius: 5px;
     padding: 0.5rem;
     color: var(--color-titulo);
     text-decoration: none;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: var(--color-titulo) solid 2px ;
+}
+
+.container__aviso{
+    color: var(--cinza);
+    font-size: 12px;
 }
