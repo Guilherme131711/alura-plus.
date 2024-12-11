@@ -30,20 +30,32 @@ body{
     background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size:contain;
+    align-items: center;
+    text-align: center;
 }
+
+.container__caixa{
+    margin: 0 6em;
+}
+
 
 .container__titulo1{
     font-size: 28px;
     font-weight: 700;
 }
 
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
 .container__btn{
     display: block;
     background-color: var(--btn-azul);
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 0.8rem;
     color: var(--color-titulo);
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
