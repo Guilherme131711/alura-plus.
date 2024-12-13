@@ -67,3 +67,42 @@ body{
     color: var(--cinza);
     font-size: 12px;
 }
+
+/* sessao 2 */
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__imagem{
+    width: 80%;
+}
+
+.descricao__titulo{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1%;
+    color: var(--color-titulo);
+}
+
+.descricao__texto{
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/*sessao 3 com classes da 2 */
+
+
+.btn__secundario{
+    display: inline-block;
+    margin-top: 1em;
+    padding: 1rem;
+}
+
+.container__descricao{
+    padding:2em;
+}
+
+
