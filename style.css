@@ -19,7 +19,7 @@ body{
     font-size: 1rem;
     font-weight: 400;
 }
-
+/* section 1  */
 .container{
     height: 100vh;
     display: grid;
@@ -56,6 +56,16 @@ body{
     color: var(--color-titulo);
     text-decoration: none;
     margin-bottom: 1em;
+}
+.container__btn:hover{
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 700;
+    transition: 0.7s;
+    box-shadow:
+     inset #262727 4px 4px 15px, 
+     #22d4fd 3px 3px 5px;
 }
 
 .botao_secundario{
@@ -94,7 +104,6 @@ body{
 
 /*sessao 3 com classes da 2 */
 
-
 .btn__secundario{
     display: inline-block;
     margin-top: 1em;
@@ -105,3 +114,61 @@ body{
     padding:2em;
 }
 
+
+/* section 4 icones de dispositivos */
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center; 
+    list-style-type:none ;
+    margin: 5em 0;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+}
+
+.lista__item{
+    font-size: 32px;
+}
+
+
+/* rodapé */
+
+.rodape{
+    text-align: center;
+    margin: 3em 3em;
+
+}
+.rodape__logo{
+    margin-top: 5em;
+}
+.rodape__listas{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin:3em 0 ;
+}
+
+.lista__link{
+    color:#FFFFFF;
+    text-decoration: none;
+    margin-left: 1em;
+}
+
+.lista__link:hover{
+    color: var(--btn-azul);
+    text-decoration:underline ;
+}
+
+.rodape__texto{
+    text-align: center;
+    font-size: 14px;
+    color: var(#c0c0c0);
+    margin:2em 0;
+} 
