@@ -181,10 +181,11 @@ body{
     .container{
         display: block;
         background-image: none;
+        height: 550px; ;
     }
 
     .container__caixa{
-        margin: 2em 2em ;
+        margin:2em 2em ;
     }
 
     .container__imagem{
